@@ -1,0 +1,384 @@
+{
+  "signals": {
+    "businessType": "local-service",
+    "segment": "beleza-pessoal",
+    "subsegments": [
+      "agendamento",
+      "estilo",
+      "social-proof"
+    ],
+    "salesModel": "appointment",
+    "customerIntent": "agendar",
+    "decisionSpeed": 0.5,
+    "trustNeed": 0.4,
+    "visualWeight": 0.8,
+    "bookingNeed": true,
+    "catalogNeed": false,
+    "locationNeed": true,
+    "socialProofNeed": 0.85,
+    "urgencyProfile": 0.3,
+    "digitalMaturity": "baixa-media",
+    "toneHints": [
+      "estiloso",
+      "confiante",
+      "moderno"
+    ],
+    "evidence": [
+      {
+        "type": "confirmed",
+        "source": "segment-match",
+        "detail": "Nicho \"barbearia\" matched → beleza-pessoal"
+      },
+      {
+        "type": "confirmed",
+        "source": "google-rating",
+        "detail": "5★ (62 avaliações)"
+      },
+      {
+        "type": "confirmed",
+        "source": "lead-data",
+        "detail": "Cidade: Barueri"
+      }
+    ],
+    "unknowns": [
+      "ia-diagnosis-missing"
+    ],
+    "lifestyleSignal": 0.7,
+    "luxurySignal": 0.4,
+    "urgencySignal": 0.3
+  },
+  "profile": {
+    "primarySegment": "beleza-pessoal",
+    "secondarySegments": [
+      "agendamento",
+      "estilo",
+      "social-proof"
+    ],
+    "businessMode": "lifestyle-service",
+    "audience": [
+      "homens-estilo",
+      "jovens-adultos"
+    ],
+    "customerMindset": [
+      "quero-experiencia",
+      "identificacao-estilo",
+      "quero-agendar",
+      "praticidade"
+    ],
+    "purchaseContext": [
+      "planejado",
+      "agendamento"
+    ],
+    "decisionDynamics": {
+      "speed": "media",
+      "frictionTolerance": "media",
+      "trustBarrier": "baixo"
+    },
+    "commercialNeeds": {
+      "booking": true,
+      "whatsapp": true,
+      "catalog": false,
+      "location": true,
+      "reviews": true,
+      "proof": false
+    },
+    "brandVibe": [
+      "profissional",
+      "acessivel"
+    ],
+    "visualDirectionHints": [
+      "dark-atmosphere",
+      "foto-hero-forte",
+      "galeria-prioridade"
+    ],
+    "copyDirectionHints": [
+      "aspiracional",
+      "emocional",
+      "identidade"
+    ],
+    "ctaDirectionHints": [
+      "agendar",
+      "marcar-horario"
+    ],
+    "antiPatterns": []
+  },
+  "direction": {
+    "theme": {
+      "paletteMode": "dark-immersive",
+      "contrastLevel": "high",
+      "density": "spacious",
+      "visualTemperature": "warm",
+      "preferredMood": [
+        "profissional",
+        "acessivel"
+      ]
+    },
+    "hero": {
+      "style": "image-overlay",
+      "emphasis": "visual",
+      "headlineMode": "aspirational",
+      "subheadlineMode": "value-proposition",
+      "backgroundDirection": "photo-atmospheric",
+      "ctaPriority": "booking"
+    },
+    "imagery": {
+      "focus": [
+        "resultado-trabalho",
+        "ambiente-moderno",
+        "estilo",
+        "profissional"
+      ],
+      "avoid": [
+        "generico-stock",
+        "corporativo",
+        "clinico"
+      ],
+      "style": "atmospheric",
+      "realismLevel": "high-preference-real-photos"
+    },
+    "sections": {
+      "priorityOrder": [
+        "hero",
+        "galeria",
+        "avaliacoes",
+        "contato",
+        "servicos",
+        "stats",
+        "sobre",
+        "faq",
+        "cta-final"
+      ],
+      "include": {
+        "hero": true,
+        "galeria": true,
+        "avaliacoes": true,
+        "contato": true,
+        "servicos": true,
+        "stats": true,
+        "sobre": true,
+        "faq": true,
+        "cta-final": true
+      },
+      "exclude": {}
+    },
+    "proof": {
+      "emphasis": "moderate",
+      "type": "customer-stories"
+    },
+    "conversion": {
+      "primaryCta": "Agendar Agora",
+      "secondaryCta": "Ver Horários",
+      "contactStrategy": "booking-first",
+      "formMode": "simple"
+    },
+    "copy": {
+      "tone": "aspiracional-envolvente",
+      "sentenceStyle": "balanced",
+      "persuasionMode": "benefit-aspiration",
+      "avoid": []
+    }
+  },
+  "applied": {
+    "overrides": [
+      "palette:dark-immersive",
+      "imagery:beleza-pessoal",
+      "assets:fallback-only",
+      "content:beleza-pessoal",
+      "cta:Agendar Agora",
+      "enriched:lead-specifics"
+    ],
+    "palette": {
+      "mode": "dark-immersive",
+      "bg": "#09090f",
+      "primary": "#e8a838",
+      "accent": "#d4943c",
+      "text": "#f0f0f0"
+    },
+    "imagery": {
+      "segment": "beleza-pessoal",
+      "heroImg": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1920&q=80&auto=fo...",
+      "aboutImg": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=900&q=80&auto=for...",
+      "heroSource": "segment-fallback",
+      "aboutSource": "segment-fallback",
+      "gallerySource": "segment-fallback",
+      "galleryRealCount": 0,
+      "logoSource": "generated-initial",
+      "logoUrl": null
+    },
+    "assets": {
+      "resolved": true,
+      "applied": false,
+      "changes": [],
+      "meta": {
+        "websiteFetched": true,
+        "websiteError": null,
+        "googleMapsImages": 0,
+        "instagramAvailable": false,
+        "websiteUrl": "https://web-barbearia-em-barueri-los-patrones.vercel.app"
+      }
+    },
+    "cta": {
+      "primary": "Agendar Agora",
+      "secondary": "Ver Horários"
+    },
+    "sectionOrder": [
+      "hero",
+      "galeria",
+      "avaliacoes",
+      "contato",
+      "servicos",
+      "stats",
+      "sobre",
+      "faq",
+      "cta-final"
+    ],
+    "sectionLabelsSource": "beleza-pessoal",
+    "contentSource": "beleza-pessoal",
+    "tagline": {
+      "source": "dynamic-builder",
+      "value": "Estilo e cuidado profissional sob medida. Na Barbearia em barueri LOS PATRONES em Barueri, cada aten"
+    },
+    "iaInfluence": false,
+    "iaFields": null,
+    "enrichment": {
+      "hasLeadData": true,
+      "leadFlags": {
+        "hasAvaliacao": true,
+        "hasDescricao": false,
+        "hasHorarios": false,
+        "hasEndereco": true,
+        "hasInstagram": false,
+        "hasWebsite": true
+      },
+      "nameTokens": [],
+      "reviewsSource": "enriched-specific",
+      "heroHeadlineSource": "sales-angle",
+      "subheadlineSource": "enriched-specific",
+      "aboutSource": "businessMode",
+      "iaEnriched": false,
+      "siteContext": "evolution"
+    }
+  },
+  "audit": {
+    "businessPersona": {
+      "empresa": "Barbearia em barueri LOS PATRONES",
+      "segment": "beleza-pessoal",
+      "businessMode": "lifestyle-service",
+      "traits": [
+        "lifestyle/aspiracional"
+      ],
+      "tone": "aspiracional-envolvente",
+      "brandVibe": [
+        "profissional",
+        "acessivel"
+      ],
+      "audience": [
+        "homens-estilo",
+        "jovens-adultos"
+      ],
+      "customerMindset": [
+        "quero-experiencia",
+        "identificacao-estilo",
+        "quero-agendar",
+        "praticidade"
+      ],
+      "salesModel": "appointment",
+      "visualPersonality": "dark-immersive",
+      "heroStyle": "image-overlay",
+      "summary": "Barbearia em barueri LOS PATRONES é um negócio tipo \"lifestyle-service\" no segmento \"beleza-pessoal\". Persona: lifestyle/aspiracional. Tom: aspiracional-envolvente. Público: homens-estilo, jovens-adultos."
+    },
+    "specificityMarkers": {
+      "heroHeadline": "segment-specific",
+      "heroSubheadline": "business-specific",
+      "ctaPrimary": "Agendar Agora",
+      "ctaPrimarySource": "signal:bookingNeed",
+      "ctaSecondary": "Ver Horários",
+      "reviews": "segment+business-specific",
+      "aboutParagraph": "businessMode:lifestyle-service",
+      "services": "segment:beleza-pessoal",
+      "faq": "segment:beleza-pessoal+location-faq",
+      "palette": "direction:dark-immersive",
+      "imagery": "segment:beleza-pessoal",
+      "stats": "lead-data-enriched",
+      "sectionLabels": "segment:beleza-pessoal",
+      "sectionOrder": "direction-weighted",
+      "tagline": "dynamic-builder",
+      "_score": "15/15",
+      "_pct": "100%"
+    },
+    "heroRationale": {
+      "headlineMode": "aspirational",
+      "headlineSource": "sales-angle-function",
+      "headlineValue": "Seu espaço. Seu estilo. Agende na Barbearia em barueri LOS PATRONES.",
+      "subheadlineSource": "enrichWithLeadSpecifics",
+      "emphasis": "visual",
+      "style": "image-overlay",
+      "why": "hero image-overlay padrão — equilíbrio entre visual e conteúdo. headline mode aspiracional: negócio lifestyle/experiencial. salesAngle fornece headline por segmento."
+    },
+    "ctaRationale": {
+      "primaryCta": "Agendar Agora",
+      "secondaryCta": "Ver Horários",
+      "contactStrategy": "booking-first",
+      "why": "bookingNeed=true → CTA prioriza agendamento."
+    },
+    "proofRationale": {
+      "emphasis": "moderate",
+      "type": "customer-stories",
+      "reviewsSource": "segment-templates-with-business-data",
+      "hasRealRating": true,
+      "ratingUsed": 5,
+      "why": "socialProofNeed moderado → prova social presente mas não dominante. avaliação real (5★) injeta credibilidade nos stats e reviews. tipo customer-stories: depoimentos de clientes como prova principal."
+    },
+    "copyRationale": {
+      "tone": "aspiracional-envolvente",
+      "sentenceStyle": "balanced",
+      "persuasionMode": "benefit-aspiration",
+      "avoid": [],
+      "aboutSource": "businessMode:lifestyle-service",
+      "why": "lifestyleSignal > 0.6 → tom aspiracional e envolvente. persuasão por benefício/aspiração."
+    },
+    "why_this_business_is_not_generic": {
+      "reasons": [
+        "Subtítulo construído com dados reais do lead (avaliação, cidade, modo de negócio)",
+        "Reviews mencionam \"Barbearia em barueri LOS PATRONES\" por nome, não são genéricos",
+        "Stats usam avaliação real: 5★ (62 avaliações)",
+        "FAQ inclui localização real: R. Duque de Caxias, 177 - Vila Srg. Jose de Paula, Barueri - SP, 06401-010, Brasil, Vila Sargento Jose de Paula, Barueri"
+      ],
+      "specificFieldCount": 15,
+      "totalFields": 15,
+      "verdict": "altamente específico"
+    },
+    "fieldProvenance": {
+      "fromLead": [
+        "empresa",
+        "nicho",
+        "cidade",
+        "telefone",
+        "website",
+        "avaliacao",
+        "numero_avaliacoes",
+        "endereco",
+        "bairro"
+      ],
+      "fromCRM": [],
+      "fromIA": [],
+      "inferred": [
+        "segment:beleza-pessoal",
+        "businessMode:lifestyle-service",
+        "paletteMode:dark-immersive",
+        "heroStyle:image-overlay",
+        "copyTone:aspiracional-envolvente",
+        "salesModel:appointment",
+        "contactStrategy:booking-first",
+        "sectionOrder:weighted-by-signals"
+      ],
+      "summary": {
+        "lead": 9,
+        "crm": 0,
+        "ia": 0,
+        "inferred": 8,
+        "total": 17
+      }
+    }
+  }
+}
